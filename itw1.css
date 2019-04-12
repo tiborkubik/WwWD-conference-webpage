@@ -1,0 +1,336 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    width = 100%;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    color: #0f1956;
+    margin-top: 0;
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+
+a:hover {
+  color: #fd367e;
+}
+
+.content {
+    width: 80%;
+    max-width: 1170px;
+    min-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.logo {
+    float: left;
+}
+
+.main-menu li {
+    list-style-type:none;
+    font-size: 15px;
+    margin-right: 16px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.header img {
+    padding-top: 30px;
+}
+
+.page-scroll {
+    text-decoration: none;
+    color: white;
+}
+
+.main-menu ul {
+    float: right;
+}
+
+.main-title {
+    background-image: url("img/img-jumbotron-bg.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.main-title .content{
+    color: white;
+    top: 50%;
+    width: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
+
+.event-date {
+    margin: 5px;
+    font-size: 24px;
+}
+
+.main-title h1 {
+    font-size: 64px;
+}
+
+.main-title .lead {
+    padding-bottom: 50px;
+    font-size: 21px;
+    line-height: 1.6;
+    font-weight: 100 !important;
+}
+
+.main-title .btn {
+    text-decoration: none;
+    color: white;
+    border: 1px;
+    border-style: solid;
+    padding: 15px 20px;
+}
+
+.main-title .btn:hover {
+    color: #fd367e;
+    border-color: #fd367e;
+}
+
+#section-intro {
+    padding-top: 100px;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 100px;
+    line-height: 1.6;
+}
+
+#section-intro .lead {
+    display: inline-block;
+    float: left;
+    max-width: 720px;
+    color: #4D5366;
+    font-size: 19px;
+}
+
+#section-intro p {
+    margin-top: 0;
+}
+
+.contact {
+    display: inline-block;
+}
+
+.contact address {
+    color: #b2b2b2;
+    font-size: 15px;
+}
+.contact strong {
+    color: #0f1956;
+    font-weight: bold;
+}
+
+#section-speaker {
+    background-color: #f0f1f3;
+}
+
+.section-content {
+    margin-top:auto;
+    margin-bottom:auto;
+    text-align:center;
+}
+
+.thumbnail {
+    display: inline-block;
+    width: 220px;
+    margin: 10px;
+}
+
+.thumbnail img {
+    width: 220px;
+    height: auto;
+}
+.thumbnail h3 {
+    text-transform: uppercase;
+    color: #0f1956;
+}
+
+.thumbnail small {
+    color: #b2b2b2;
+    font-size: 12px;
+    display: block;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+.section-content {
+    padding-bottom: 100px;
+}
+
+.agenda-part {
+    display: inline-grid;
+    width: 280px;
+    margin: 20px;
+}
+
+#section-agenda .content{
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+
+.agenda-part .session {
+    margin-bottom: 50px;
+    border-left: 1px solid #b2b2b2;
+}
+
+.agenda-part time {
+    display: inline-block;
+    color: #353d53;
+    font-size: 15px;
+    border-bottom: 1px solid #b2b2b2;
+    padding: 15px;
+}
+
+.agenda-part h3 {
+    color: #0f1956;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 15px;
+}
+
+.agenda-part h4 {
+    color: #0f1956;
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.agenda-part span {
+    display: block;
+    font-size: 15px;
+}
+
+#section-pricing {
+    background-color: #f0f1f3;
+    padding-bottom: 100px;
+}
+
+#section-pricing h2{
+    margin-bottom: 0;
+}
+
+#section-pricing p {
+    text-align: center;
+    color: #b2b2b2;
+    padding-bottom: 50px;
+}
+
+.pricing-table-default {
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    width: 280px;
+    font-size: 15px;
+    color: #353d53;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.pricing-table-default h3{
+    background-color: #0f1956;
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.price {
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.price sup{
+    font-size: 26px;
+}
+
+.pricing-detail ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 3;
+}
+
+.pricing-table-default .btn {
+    background-color: #fa3b7f;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display:inline-block;
+    margin-bottom: 25px;
+    border: 2px solid #fa3b7f;
+}
+
+.pricing-table-default .btn:hover {
+    background-color: white;
+    color: #fd367e;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: #fd367e;
+}
+
+#section-pricing .content {
+    margin-top:auto;
+    margin-bottom:auto;
+    text-align:center;
+}
+
+.partner {
+    display: inline-block;
+    width: 120px;
+    height: auto;
+    margin: 10px;
+}
+
+.partner img {
+    width: 120px;
+    height: auto;
+}
+
+#section-partner h2 {
+    padding-bottom: 20px;
+}
+
+#section-partner .content {
+    margin-top:auto;
+    margin-bottom:auto;
+    text-align:center;
+    padding-bottom: 100px;
+}
+
+#footer {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    color: #b2b2b2;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #fa3b7f;
+}
